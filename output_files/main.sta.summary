@@ -1,0 +1,221 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 125C Model Setup 'clk_2ms'
+Slack : -4.697
+TNS   : -69.071
+
+Type  : Slow 1200mV 125C Model Setup 'CLK_50M'
+Slack : -3.743
+TNS   : -373.601
+
+Type  : Slow 1200mV 125C Model Setup 'clk_400ms'
+Slack : -2.117
+TNS   : -33.514
+
+Type  : Slow 1200mV 125C Model Setup 'Multi_8bits:Multi_8bits_U1|clk_5ms'
+Slack : -2.060
+TNS   : -114.492
+
+Type  : Slow 1200mV 125C Model Setup 'clk_200ms'
+Slack : -1.507
+TNS   : -12.503
+
+Type  : Slow 1200mV 125C Model Setup 'clk_8ms'
+Slack : -0.858
+TNS   : -19.474
+
+Type  : Slow 1200mV 125C Model Hold 'CLK_50M'
+Slack : -0.181
+TNS   : -0.539
+
+Type  : Slow 1200mV 125C Model Hold 'clk_8ms'
+Slack : 0.290
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Hold 'Multi_8bits:Multi_8bits_U1|clk_5ms'
+Slack : 0.396
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Hold 'clk_400ms'
+Slack : 0.427
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Hold 'clk_200ms'
+Slack : 0.428
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Hold 'clk_2ms'
+Slack : 0.428
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'CLK_50M'
+Slack : -3.000
+TNS   : -218.615
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'Multi_8bits:Multi_8bits_U1|clk_5ms'
+Slack : -1.487
+TNS   : -215.615
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'clk_8ms'
+Slack : -1.487
+TNS   : -63.941
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'clk_2ms'
+Slack : -1.487
+TNS   : -29.740
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'clk_400ms'
+Slack : -1.487
+TNS   : -26.766
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'clk_200ms'
+Slack : -1.487
+TNS   : -16.357
+
+Type  : Slow 1200mV -40C Model Setup 'clk_2ms'
+Slack : -4.063
+TNS   : -58.420
+
+Type  : Slow 1200mV -40C Model Setup 'CLK_50M'
+Slack : -3.262
+TNS   : -292.022
+
+Type  : Slow 1200mV -40C Model Setup 'clk_400ms'
+Slack : -1.734
+TNS   : -27.549
+
+Type  : Slow 1200mV -40C Model Setup 'Multi_8bits:Multi_8bits_U1|clk_5ms'
+Slack : -1.614
+TNS   : -75.961
+
+Type  : Slow 1200mV -40C Model Setup 'clk_200ms'
+Slack : -1.120
+TNS   : -9.153
+
+Type  : Slow 1200mV -40C Model Setup 'clk_8ms'
+Slack : -0.622
+TNS   : -11.546
+
+Type  : Slow 1200mV -40C Model Hold 'CLK_50M'
+Slack : -0.173
+TNS   : -0.399
+
+Type  : Slow 1200mV -40C Model Hold 'clk_8ms'
+Slack : 0.239
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Hold 'Multi_8bits:Multi_8bits_U1|clk_5ms'
+Slack : 0.299
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Hold 'clk_200ms'
+Slack : 0.343
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Hold 'clk_2ms'
+Slack : 0.344
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Hold 'clk_400ms'
+Slack : 0.344
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'CLK_50M'
+Slack : -3.000
+TNS   : -189.325
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'Multi_8bits:Multi_8bits_U1|clk_5ms'
+Slack : -1.285
+TNS   : -186.325
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'clk_8ms'
+Slack : -1.285
+TNS   : -55.255
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'clk_2ms'
+Slack : -1.285
+TNS   : -25.700
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'clk_400ms'
+Slack : -1.285
+TNS   : -23.130
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'clk_200ms'
+Slack : -1.285
+TNS   : -14.135
+
+Type  : Fast 1200mV -40C Model Setup 'clk_2ms'
+Slack : -1.651
+TNS   : -21.603
+
+Type  : Fast 1200mV -40C Model Setup 'CLK_50M'
+Slack : -1.246
+TNS   : -92.555
+
+Type  : Fast 1200mV -40C Model Setup 'clk_400ms'
+Slack : -0.484
+TNS   : -6.562
+
+Type  : Fast 1200mV -40C Model Setup 'Multi_8bits:Multi_8bits_U1|clk_5ms'
+Slack : -0.344
+TNS   : -7.466
+
+Type  : Fast 1200mV -40C Model Setup 'clk_200ms'
+Slack : -0.174
+TNS   : -0.692
+
+Type  : Fast 1200mV -40C Model Setup 'clk_8ms'
+Slack : 0.122
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Hold 'CLK_50M'
+Slack : -0.200
+TNS   : -0.712
+
+Type  : Fast 1200mV -40C Model Hold 'Multi_8bits:Multi_8bits_U1|clk_5ms'
+Slack : 0.102
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Hold 'clk_8ms'
+Slack : 0.109
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Hold 'clk_400ms'
+Slack : 0.179
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Hold 'clk_200ms'
+Slack : 0.180
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Hold 'clk_2ms'
+Slack : 0.180
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'CLK_50M'
+Slack : -3.000
+TNS   : -157.201
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'Multi_8bits:Multi_8bits_U1|clk_5ms'
+Slack : -1.000
+TNS   : -145.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'clk_8ms'
+Slack : -1.000
+TNS   : -43.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'clk_2ms'
+Slack : -1.000
+TNS   : -20.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'clk_400ms'
+Slack : -1.000
+TNS   : -18.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'clk_200ms'
+Slack : -1.000
+TNS   : -11.000
+
+------------------------------------------------------------

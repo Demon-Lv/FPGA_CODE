@@ -1,0 +1,59 @@
+
+//顶层程序设计
+module main(
+	input 	CLK_50M,
+	input	Rst_n,
+	input 	[8:1] BUT,
+	output 	reg	[8:1] LED
+	);
+
+	//定义寄存器
+	reg [23:0] cnt;
+	reg [2:0]  Led_ctr;
+	
+	//用于计数0.2s的计数器
+	always @ (posedge CLK_50M or negedge Rst_n) begin
+		if(!Rst_n)
+			cnt <= 24'd 9_999_999;
+		else if(cnt<24'd 9_999_999)
+			cnt <= cnt + 1;
+		else
+			cnt <= 0;
+	end
+	
+	//用于led灯状态的选择
+	always @ (posedge CLK_50M or negedge Rst_n) begin
+		if(!Rst_n)
+			Led_ctr <= 3'b000;
+		else if(cnt == 24'd 9_999_999)
+			Led_ctr <= Led_ctr + 1'b1;
+		else
+			Led_ctr <= Led_ctr;//保持原LED灯不变
+	end
+
+	//识别按键，选择模式
+	always @ (posedge CLK_50M or negedge Rst_n) begin
+		if(!Rst_n)
+			LED <= 8'b0000_0000;
+		else if(BUT[0] == 0)
+			case(Led_ctr)
+				3'b000:	LED <= 8'b0000_0001;
+				3'b001:	LED <= 8'b0000_0010;
+				3'b010:	LED <= 8'b0000_0100;
+				3'b011:	LED <= 8'b0000_1000;
+				3'b100:	LED <= 8'b0001_0000;
+				3'b101:	LED <= 8'b0010_0000;
+				3'b110:	LED <= 8'b0100_0000;
+				3'b111:	LED <= 8'b1000_0000;
+				default: LED <= 8'b0000_0000;
+			endcase
+		else
+			LED <= 8'b0000_0000;
+	end
+	
+
+endmodule
+
+
+
+

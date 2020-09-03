@@ -1,0 +1,6 @@
+
+State Machine - |main|Multi_8bits:Multi_8bits_U1|state_cur
+Name state_cur.10 state_cur.00 state_cur.11 
+state_cur.00 0 0 0 
+state_cur.10 1 1 0 
+state_cur.11 0 1 1 
